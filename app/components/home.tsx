@@ -1,15 +1,19 @@
-
 function useSpecificPrompt() {
   // Define the specific prompt here
   const prompt = "Specific prompt text goes here";
 
   // Use the PezzoOpenAI class to interact with OpenAI API
-  // TODO: Implement the actual call using PezzoOpenAI
+  // This is a placeholder and should be replaced with the actual method call from PezzoOpenAI
   console.log("Using specific prompt:", prompt);
+  // TODO: Implement the actual call using PezzoOpenAI and handle the response
 }
-"use client";
 
-require("../polyfill");
+// Use the PezzoOpenAI class to interact with OpenAI API
+// TODO: Implement the actual call using PezzoOpenAI
+console.log("Using specific prompt:", prompt);
+
+const polyfill = require("../polyfill");
+
 
 import { useState, useEffect } from "react";
 
